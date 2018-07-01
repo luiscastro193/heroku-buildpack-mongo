@@ -32,6 +32,5 @@ mkdir -p $BUILD_DIR/.profile.d
 echo "export PATH=\"\$HOME/.heroku/mongo/bin:\$PATH\"" > $BUILD_DIR/.profile.d/mongo.sh
 
 echo "Installing s3cmd"
-easy_install pip
-pip install s3cmd
+pip3 install s3cmd
 echo "s3cmd installed"
